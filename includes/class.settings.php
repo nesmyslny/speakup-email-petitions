@@ -99,7 +99,7 @@ class dk_speakup_Settings
 	private function _allowed_html_tags()
 	{
 		$allowed_tags = array(
-			'a'      => array( 'href' => array(),'title' => array() ),
+			'a'      => array( 'href' => array(),'title' => array(),'target' => array() ),
 			'em'     => array(),
 			'strong' => array(),
 			'p'      => array()
