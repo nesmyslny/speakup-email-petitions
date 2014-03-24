@@ -16,6 +16,7 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
 
 #: speakup-email-petitions.php:61
 msgid "Support"
@@ -377,7 +378,9 @@ msgstr "Bestätigen Sie per Email"
 #: includes/emailpetition.php:176 includes/emailpetition.php:205
 #: includes/widget.php:161 includes/widget.php:178 includes/widget.php:187
 msgid "signature"
-msgstr "Unterschrift"
+msgid_plural "signatures"
+msgstr[0] "Unterschrift"
+msgstr[1] "Unterschriften"
 
 #: includes/emailpetition.php:195 includes/widget.php:207
 msgid "Signature goal"
