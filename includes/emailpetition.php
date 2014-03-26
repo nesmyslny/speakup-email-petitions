@@ -155,6 +155,10 @@ function dk_speakup_emailpetition_shortcode( $attr ) {
 								<p class="dk-speakup-caps">[' . __( 'signature', 'dk-speakup' ) . ']</p>
 							</div>';
 				}
+				$petition_form .= '
+					<div id="dk-speakup-required-explanation" class="dk-speakup-full">
+						<span>*</span> ' . __( 'required', 'dk_speakup' ) . '
+					</div>';
 				if ( $petition->displays_optin == 1 ) {
 					$optin_default = ( $options['optin_default'] == 'checked' ) ? ' checked="checked"' : '';
 					$petition_form .= '

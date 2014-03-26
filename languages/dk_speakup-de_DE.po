@@ -72,7 +72,7 @@ msgstr "Fehler: Bitte korrigieren Sie die markierten Felder."
 msgid "Enter title here"
 msgstr "Bitte Titel hier eingeben"
 
-#: includes/addnew.view.php:71 includes/emailpetition.php:223
+#: includes/addnew.view.php:71 includes/emailpetition.php:227
 #: includes/help.php:33 includes/petitions.view.php:17
 #: includes/petitions.view.php:26 includes/signatures.php:69
 #: includes/signatures.php:106 includes/signatures.view.php:46
@@ -375,26 +375,26 @@ msgid "Confirm Email"
 msgstr "Bestätigen Sie per Email"
 
 #: includes/emailpetition.php:148 includes/emailpetition.php:155
-#: includes/emailpetition.php:176 includes/emailpetition.php:205
+#: includes/emailpetition.php:180 includes/emailpetition.php:209
 #: includes/widget.php:161 includes/widget.php:178 includes/widget.php:187
 msgid "signature"
 msgid_plural "signatures"
 msgstr[0] "Unterschrift"
 msgstr[1] "Unterschriften"
 
-#: includes/emailpetition.php:195 includes/widget.php:207
+#: includes/emailpetition.php:199 includes/widget.php:207
 msgid "Signature goal"
 msgstr "Erwartete Anzahl Unterschriften"
 
-#: includes/emailpetition.php:200 includes/widget.php:203
+#: includes/emailpetition.php:204 includes/widget.php:203
 msgid "End date"
 msgstr "Enddatum"
 
-#: includes/emailpetition.php:201 includes/widget.php:204
+#: includes/emailpetition.php:205 includes/widget.php:204
 msgid "Signatures collected"
 msgstr "Unterschriften gesammelt"
 
-#: includes/emailpetition.php:225
+#: includes/emailpetition.php:229
 msgid "Error: You must include a valid id."
 msgstr "Fehler: Sie müssen eine gültige ID verwenden."
 
@@ -1013,3 +1013,7 @@ msgstr "Beschreibung"
 
 #~ msgid "Petition signature: confirmation needed"
 #~ msgstr "Petition unterschrift: bestätigung erforderlich"
+
+#: includes/emailpetition.php:160
+msgid "required"
+msgstr "Pflichtangabe"

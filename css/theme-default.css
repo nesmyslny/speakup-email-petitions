@@ -124,7 +124,6 @@
 .dk-speakup-petition {
   padding-top: .8em;
   /* petition text will be displayed in popup reader, so hide these */
-
 }
 .dk-speakup-petition label {
   color: #808080;
@@ -176,6 +175,16 @@
 }
 .dk-speakup-petition input[type=text] {
   height: 1.8em;
+}
+#dk-speakup-required-explanation {
+  text-align: right;
+  color: #808080;
+  font-size: .8em;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#dk-speakup-required-explanation span {
+  color: #e81e00;
 }
 /*
  *	Submit button
