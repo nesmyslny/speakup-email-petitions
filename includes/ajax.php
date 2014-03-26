@@ -60,6 +60,8 @@ function dk_speakup_sendmail() {
 		$success_message = str_replace( '%first_name%', $the_signature->first_name, $success_message );
 		$success_message = str_replace( '%last_name%', $the_signature->last_name, $success_message );
 
+		do_action( 'dk_speakup_petition_signed', $the_signature );
+
 		$json_response = array(
 			'status'  => 'success',
 			'message' => $success_message
